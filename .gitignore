@@ -9,6 +9,8 @@ _trial_temp
 doc/_build
 .testrepository
 .lp_creds
+.python-version
+.tox
 ./testtools.egg-info
 *.pyc
 *.swp

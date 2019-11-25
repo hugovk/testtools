@@ -9,10 +9,7 @@ python:
   - "pypy"
 
 install:
-  - pip install -U pip wheel setuptools
-  - pip install sphinx Twisted
-  - pip install .[test]
+  - pip install -U pip wheel setuptools tox-travis
 
 script:
-  - python -m testtools.run testtools.tests.test_suite
-  - make clean-sphinx docs
+  - tox
