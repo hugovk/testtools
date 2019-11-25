@@ -22,10 +22,8 @@ from testtools.matchers import (
     Is,
     KeysEqual,
     MatchesDict,
-    MatchesException,
     MatchesListwise,
     Not,
-    Raises,
     )
 from testtools.runtest import RunTest
 from testtools.testresult.doubles import ExtendedTestResult
@@ -1016,7 +1014,7 @@ class TestCaptureTwistedLogs(NeedsTwistedTestCase):
 
 
 def test_suite():
-    from unittest2 import TestLoader, TestSuite
+    from unittest2 import TestLoader
     return TestLoader().loadTestsFromName(__name__)
 
 

@@ -13,10 +13,8 @@ __all__ = [
     ]
 
 import codecs
-import inspect
 import json
 import os
-import sys
 
 from extras import try_import
 # To let setup.py work, make this a conditional import.

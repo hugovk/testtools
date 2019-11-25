@@ -8,7 +8,6 @@ For instance, to run the testtools test suite.
  $ python -m testtools.run testtools.tests.test_suite
 """
 
-import argparse
 from functools import partial
 import os.path
 import sys
@@ -17,8 +16,8 @@ from extras import safe_hasattr, try_imports
 # To let setup.py work, make this a conditional import.
 unittest = try_imports(['unittest2', 'unittest'])
 
-from testtools import TextTestResult, testcase
-from testtools.compat import classtypes, istext, unicode_output_stream
+from testtools import TextTestResult
+from testtools.compat import istext, unicode_output_stream
 from testtools.testsuite import filter_by_ids, iterate_tests, sorted_tests
 
 

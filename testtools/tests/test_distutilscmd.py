@@ -9,7 +9,6 @@ from extras import try_import
 from testtools.compat import (
     _b,
     _u,
-    BytesIO,
     )
 fixtures = try_import('fixtures')
 

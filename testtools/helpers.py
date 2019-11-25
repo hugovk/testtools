@@ -6,10 +6,8 @@ __all__ = [
     'try_imports',
     ]
 
-import sys
-
 # Compat - removal announced in 0.9.25.
-from extras import (
+from extras import (  # noqa: F401
     safe_hasattr,
     try_import,
     try_imports,

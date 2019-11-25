@@ -4,10 +4,7 @@
 
 import ast
 import io
-import linecache2 as linecache
-import os
 import sys
-import tempfile
 import traceback
 
 import testtools
@@ -21,12 +18,8 @@ from testtools.compat import (
     unicode_output_stream,
     )
 from testtools.matchers import (
-    Equals,
     Is,
-    IsInstance,
-    MatchesException,
     Not,
-    Raises,
     )
 
 

@@ -1,6 +1,5 @@
 # Copyright (c) 2008-2012 testtools developers. See LICENSE for details.
 
-import json
 import os
 import tempfile
 import unittest

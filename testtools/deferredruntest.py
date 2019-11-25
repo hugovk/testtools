@@ -17,11 +17,11 @@ from .twistedsupport import (
 )
 
 # Never explicitly exported but had public names:
-from .twistedsupport import (
+from .twistedsupport import (  # noqa: F401
     CaptureTwistedLogs,
     flush_logged_errors,
 )
-from .twistedsupport._runtest import (
+from .twistedsupport._runtest import (  # noqa: F401
     run_with_log_observers,
     UncleanReactorError,
 )

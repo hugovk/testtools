@@ -52,5 +52,5 @@ class TestExtractResult(NeedsTwistedTestCase):
 
 
 def test_suite():
-    from unittest2 import TestLoader, TestSuite
+    from unittest2 import TestLoader
     return TestLoader().loadTestsFromName(__name__)
